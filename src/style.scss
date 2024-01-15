@@ -1,0 +1,22 @@
+@import './index.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700&display=swap');
+
+html,
+body {
+  @apply font-figtree;
+  @apply box-border;
+}
+
+.hero {
+  background-image: url('assets/img/bg.jpg');
+  @apply bg-cover bg-no-repeat bg-center pt-36 pb-36;
+}
+
+.content {
+  @apply pt-20 pb-0 lg:pt-[160px] xl:pt-[212px] lg:pb-[135px] xl:pb-[175px] lg:pr-10 xl:pr-0;
+  &__col-1 {
+    background-image: url('assets/img/1.jpg');
+    @apply bg-cover bg-no-repeat bg-center;
+  }
+}
